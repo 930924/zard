@@ -2,21 +2,42 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Main</title>
-    
+    <title>Select</title>
+    <style>
+      h1 {
+        font-size: 60px; color:white; text-align: center; padding: 150px 20px 150px 20px;
+        }
+     body {
+          background-color: black;
+        }
+     .select {
+       border:5px solid white;display: grid;
+      grid-template-columns: 1fr 1fr;
+     }
+     a {
+       font-size: 100px;
+       display: block;
+       text-align: center;
+       text-decoration: none;
+       color: white;
+       padding: 40px;
+     }
+    </style>
   </head>
 
   <body>
+    <h1>Notice</h1>
+    <h1>このホームページはザードの好きな人のために作ったものです。<br> あなたはザードのことがお好きでしょうか？ </h1>
 
-    <audio src="music/kagegaenonaimono.mp3" autoplay controls >
+<div class="select">
+  <div >
+    <h2><a href="main.html" target="_blank"> <font color = "yellow">はい</font> </a></h2>
+  </div>
+<div>
+  <h2><a href="https://www.youtube.com/watch?v=HjSmJZMRltc" target="_blank"><font color = "red">いいえ</font></a></h2>
+</div>
+  　
+</div>
 
-    </audio>
-
-    <h1>ZARD</h1>
-    <ul>
-      <li><a href="zard.html" target="_blank">zardとは？</a></li>
-      <li><a href="song.html" target="_blank">代表曲</a></li>
-      <li><a href="photo.html" target="_blank">写真</a></li>
-    </ul>
   </body>
 </html>
